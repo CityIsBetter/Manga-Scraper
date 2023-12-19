@@ -1,5 +1,4 @@
 from settings import *
-import re
 
 def dashes(seriesName):
     return "_".join(seriesName.split(" ")).lower()

@@ -1,5 +1,5 @@
 PROVIDER = "https://images.mangafreak.net/mangas/"
-LOCAL_PATH = "C:\\Users\\Asus-2023\\Downloads\\Manga\\"
+LOCAL_PATH = "C:\\Users\\{username}\\Downloads\\Manga\\"
 INITAL_PAGE = 1
 SUCCESS_MSG = "The Chapter has been successfully downloaded"
 DOWNLOADING_MSG = "Currently downloading page #"

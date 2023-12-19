@@ -3,7 +3,6 @@ from request import *
 from stringHelpers import *
 
 
-
 def download_chp(seriesName, chpNum):
     current_pg = INITAL_PAGE
     download_path = get_download_path(seriesName, chpNum)
