@@ -6,7 +6,7 @@ import os
 
 def send_request(url, binary=False):
     try:
-        request = requests.get(url, stream= binary)
+        request = requests.get(url, stream=binary)
     except:
         print(REQUEST_ERROR)
         exit()
