@@ -30,7 +30,7 @@ def download_chp(seriesName, chpNum):
 
 manga = input("Enter Manga name:")
 while True:
-    c = int(input("Enter do you want to\n1. Download entire manga \n2. Download range of chapters(ex: 2-21) \n3. Download single chapter \nEnter your choice:"))
+    c = int(input("\n1. Download entire manga \n2. Download range of chapters(ex: 2-21) \n3. Download single chapter \nEnter your choice:"))
     if c == 1:
         chp = 1
         while True:
